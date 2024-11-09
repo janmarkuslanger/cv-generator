@@ -7,4 +7,4 @@ def generate_pdf(data: DataSource) -> None:
     pdf.add_page()
     pdf.set_font("Arial", size=12)
     pdf.cell(200, 10, text="Hello, FPDF!", ln=True, align='C')
-    pdf.output("example_fpdf.pdf")
+    pdf.output("cv.pdf")
