@@ -24,7 +24,7 @@ class TestPersonalInfo(unittest.TestCase):
         self.assertEqual(self.personal_info.birthdate, self.birthdate)
 
     def test_birthplace(self):
-        self.assertIsNone(self.personal_info.birthplace)
+        self.assertEqual(self.personal_info.birthplace, self.birthplace)
 
     def test_title(self):
         self.assertEqual(self.personal_info.title, self.title)
