@@ -8,7 +8,7 @@ class WorkExperience:
         title: str,
         company: str,
         start: date,
-        end: Optional[date]
+        end: Optional[date] = None
     ):
         self.title = title
         self.company = company
