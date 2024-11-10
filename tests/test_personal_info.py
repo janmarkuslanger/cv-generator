@@ -11,7 +11,8 @@ class TestPersonalInfo(unittest.TestCase):
         self.birthplace = "London"
         self.title = "Software Engineer"
         self.personal_info = PersonalInfo(
-            self.firstname, self.lastname, self.birthdate, self.birthplace, self.title)
+            self.firstname, self.lastname, self.birthdate, self.birthplace, 
+            self.title)
 
     def test_firstname(self):
         self.assertEqual(self.personal_info.firstname, self.firstname)

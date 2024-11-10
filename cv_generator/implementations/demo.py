@@ -11,7 +11,8 @@ from data import (
 
 class Demo(DataSource):
     def get_personal_info(self) -> PersonalInfo:
-        return PersonalInfo("John", "Doe", date(1990, 5, 17))
+        return PersonalInfo("John", "Doe", date(1990, 5, 17), "London", 
+                            "Software Engineer")
     
     def get_address(self) -> Address:
         return Address("Kölner Straße", "Springfield", "51789", "DE")
