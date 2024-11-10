@@ -1,4 +1,5 @@
 from datetime import date
+from typing import Optional
 
 
 class WorkExperience:
@@ -7,7 +8,7 @@ class WorkExperience:
         title: str,
         company: str,
         start: date,
-        end: date = None
+        end: Optional[date]
     ):
         self.title = title
         self.company = company

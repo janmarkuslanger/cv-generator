@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 from .personal_info import PersonalInfo
 from .address import Address
 from .work_experience import WorkExperience
-from .skills import Skill
+from .skill import Skill
 from .education import Education
 
 
@@ -27,4 +27,3 @@ class DataSource(ABC):
     @abstractmethod
     def get_education(self) -> List[Education]:
         pass
-

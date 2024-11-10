@@ -1,4 +1,5 @@
 from datetime import date
+from typing import Optional
 
 
 class Education:
@@ -6,7 +7,7 @@ class Education:
             self,
             institution: str,
             degree: str,
-            graduation_date: date = None):
+            graduation_date: Optional[date]):
         self.institution = institution
         self.degree = degree
         self.graduation_date = graduation_date
